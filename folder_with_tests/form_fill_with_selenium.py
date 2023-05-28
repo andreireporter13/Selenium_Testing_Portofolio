@@ -37,12 +37,12 @@ def form_fill_ideisioferte(driver):
         sleep(1)
 
         # submit
-        submit_button = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "wpforms-submit"))).click()
-        sleep(1)
+        submit_button = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "wpforms-submit-312"))).click()
+        sleep(0.5)
 
     except Exception as ex:
         print(ex)
 
     finally:
-        sleep(15)
+        sleep(10)
         driver.quit()
