@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
 
-# ---> Send Message with selenium
+# ---> Send Message with selenium ############# SA-L REFAC CU CLASE, ca sa para mai profi
 def form_fill_ideisioferte(driver):
     """
     This func() fill contact for on ideisioferte.ro in automatic way.
